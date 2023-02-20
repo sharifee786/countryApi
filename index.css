@@ -1,0 +1,141 @@
+/* Navbar div */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:black;
+  color:white;
+  padding: 20px;
+  border-radius: 5px;
+}
+/* Check Responsiveness */
+@media only screen and (max-width: 460px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+/*Header of Navbar div  */
+.header {
+  font-size: 35px;
+}
+/*Items of Navbar div  */
+.items ul {
+  display: flex;
+  list-style: none;
+}
+
+.items li {
+  margin: 0 20px;
+}
+
+.items a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+/* Main div */
+.main {
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(75, 90, 90);
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+/* Searching input in Main div */
+.search input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+}
+/* Region Select in Main div */
+.region select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  width: 200px;
+}
+/* Applyin hover on Region Select in Main div */
+.region select:hover {
+  background-color: #48eee5;
+  color: #050505;
+  cursor: pointer;
+}
+/* info div */
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px;
+}
+/* Flag Image */
+img {
+  width: 300px;
+  border-radius: 8px;
+  height: 200px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+/* Applying hover on Flag Image */
+img:hover {
+  transform: scale(1.05);
+}
+/* card where the details of country mention */
+.mainCountainer {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 70px;
+}
+/* Pargraph Design*/
+p {
+  font-size: 16px;
+  line-height: 0.5;
+  margin: 10px;
+}
+/* Country Name Design*/
+.countryName {
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color:black;
+}
+/* Favorite Button Design*/
+.favorite-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+/*Applying hover on Favorite Button Design*/
+.favorite-btn:hover {
+  background-color:red;
+}
+/*Remove Button Design*/
+.remove-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+/*Applying hover on Remove Button Design*/
+.remove-btn:hover {
+  background-color:rgb(17, 14, 230);
+}
